@@ -1,0 +1,230 @@
+.box-img{
+    background-image: url("./shara_desert.jpg");
+    position: relative;
+    color: white;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .box-img{
+        width:100%;
+        height: 100%;
+        background-repeat: repeat-y;
+        position: relative;
+    }
+}
+.top_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+}
+.top{
+    width:90px;
+    height: 90px;
+    position: relative;
+    right:150px;
+    top:20px;
+    transition: height;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top{
+        position: relative;
+        right:110px;
+        top: 0px;
+        text-align: right;
+    }
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top1{
+        position: absolute;
+    }
+}
+.top1:hover{
+    cursor: pointer;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top1:hover{
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top2{
+        position: absolute;
+        top:25px;
+    }
+}
+.top2:hover{
+    cursor: pointer;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .top3{
+        position: absolute;
+        top:50px;
+    }
+}
+.top3:hover{
+    cursor: pointer;
+}
+.logo{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    top:20px;
+    left:100px;
+    background-repeat: no-repeat;
+    transition: height;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .logo{
+        width: 60px;
+        height:60px;
+        position: absolute;
+        left:20px;
+        top:0px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .logo:hover{
+        cursor: pointer;
+    }
+}
+.logo:hover{
+    cursor: pointer;
+}
+.menu{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:10px;
+    right:100px;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .menu{
+        position: absolute;
+        top:10px;
+        right:40px;
+    }
+}
+.menu:hover{
+    cursor: pointer;
+}
+
+.mid_block{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .mid_block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.text{
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 200px;
+    padding-top:235px;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .text{
+        position: relative;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top:70px;
+    }
+}
+.text1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .text1{
+        font-size: 40px;
+    }
+}
+button{
+    background-color: white;
+    border:white solid 2px;
+    border-radius: 20px;
+    width:180px;
+    height:35px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 240px 250px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .boxes{
+        display: grid;
+        grid-template-columns: 240px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        justify-content: center;
+    }
+}
+.box{
+   width: 240px;
+   height: 250px;
+   background-size: 240px 250px;
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   position: relative;
+   right:150px;
+   padding-left: 30px;
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .box{
+        position: relative;
+        right:0px;
+        padding-left: 0px;
+        top:30px;
+    }
+}
+
+.box1{
+    background-image: url("./pic-1.png");
+    transition: height;
+}
+.box1:hover{
+    cursor:pointer;
+    transform: translateY(6px);
+}
+.box2{
+    background-image: url("./pic-2.png");
+    transition: height;
+}
+.box2:hover{
+    cursor:pointer;
+    transform: translateY(6px);
+}
+.box3{
+    background-image: url("./pic-3.png");
+    transition: height;
+}
+.box3:hover{
+    cursor:pointer;
+    transform: translateY(6px);
+}
+.box4{
+    background-image: url("./pic-4.png");
+    transition: height;
+}
+.box4:hover{
+    cursor:pointer;
+    transform: translateY(6px);
+}
+@media screen and (min-width:360px) and (max-width:856px){
+    .inside_text{
+        position: relative;
+        left:20px;
+    }
+}
